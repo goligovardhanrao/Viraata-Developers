@@ -519,7 +519,7 @@ h6 {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(13, 30, 45, 0.6);
+  background-color: rgba(13, 30, 45, 0.4);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -542,9 +542,9 @@ h6 {
   overflow: hidden;
 }
 
-#hero .carousel-content {
+/* #hero .carousel-content {
   text-align: center;
-}
+} */
 
 @media (max-width: 992px) {
 
@@ -577,13 +577,13 @@ h6 {
 
 #hero p {
   width: 100%!important;
-padding-left: 200px;
-padding-right: 200px;
+/* padding-left: 200px;
+padding-right: 200px; */
   /* margin: 0 20px 0 20px; */
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
-  text-align: center;
+  /* text-align: center; */
 }
 
 #hero .carousel-inner .carousel-item {
@@ -1065,7 +1065,8 @@ padding-right: 200px;
   font-weight: 600;
   background-color: #0e1b4d;
   color: #fff;
-  padding: 10px 100px;
+  padding: 10px 50px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 991px) {
